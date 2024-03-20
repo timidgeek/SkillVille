@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/Users/jobabyyy/Desktop/SkillVille/images/sv-logoTM.png" alt="SV">
+  <img src="/images/sv-logoTM.png" alt="SV">
 </p>
 
 
