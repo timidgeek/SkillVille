@@ -1,5 +1,5 @@
 <p align="center">
-   <img src="/images/sv-logoTM.png" alt="SV">
+   <img src="images/cloud_logo.png" alt="SV">
  </p>
 
 
