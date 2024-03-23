@@ -18,6 +18,7 @@
   --letters-std: 'LettersForLearnersStd';
 }
 
+/* #region --- FONTS --- */ 
 @font-face {
   font-family: 'CircularStd';
   src: url('../src/assets/fonts/circular_std/FontsFree-Net-Circular-Std-Book\ copy.ttf') 
@@ -35,6 +36,7 @@
   src: url('../src/assets/fonts/letters_for_learners/Letters\ for\ Learners.ttf') 
        format('truetype');
 }
+/* #endregion --- FONTS --- */ 
 
 .App {
   text-align: center;
@@ -68,11 +70,11 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
