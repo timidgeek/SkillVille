@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Ear Left
+  m_Controller: {fileID: 9100000, guid: 91f2273ec321e441593f71f45c0566d4, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 5dae8c1c88ec64474b8dd68dd284822e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: eb4124bbef87b45ffa9440f804437407, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 1caa90ecf8f7e4c3c95a9002509cfaeb, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1caa90ecf8f7e4c3c95a9002509cfaeb, type: 2}

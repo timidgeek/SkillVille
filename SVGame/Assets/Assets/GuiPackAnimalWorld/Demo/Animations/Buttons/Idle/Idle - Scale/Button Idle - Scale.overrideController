@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Button Idle - Scale
+  m_Controller: {fileID: 9100000, guid: 905690ef1e6204e3d8eadc6f528ad760, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: ed64155ff8f014ea1ba86d66dc8b1da9, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 9c462f0e389f44647a5c429b9dfaa39f, type: 2}
+  - m_OriginalClip: {fileID: -8893271967752965839, guid: 905690ef1e6204e3d8eadc6f528ad760, type: 2}
+    m_OverrideClip: {fileID: -8893271967752965839, guid: 905690ef1e6204e3d8eadc6f528ad760, type: 2}
+  - m_OriginalClip: {fileID: 7323769582142055056, guid: 905690ef1e6204e3d8eadc6f528ad760, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ffd8f2d9a4ebc4d5a83111658896cc84, type: 2}
+  - m_OriginalClip: {fileID: -477760228527778264, guid: 905690ef1e6204e3d8eadc6f528ad760, type: 2}
+    m_OverrideClip: {fileID: -477760228527778264, guid: 905690ef1e6204e3d8eadc6f528ad760, type: 2}
+  - m_OriginalClip: {fileID: -5468105801348990362, guid: 905690ef1e6204e3d8eadc6f528ad760, type: 2}
+    m_OverrideClip: {fileID: -5468105801348990362, guid: 905690ef1e6204e3d8eadc6f528ad760, type: 2}
+  - m_OriginalClip: {fileID: 2019745870572439669, guid: 905690ef1e6204e3d8eadc6f528ad760, type: 2}
+    m_OverrideClip: {fileID: 2019745870572439669, guid: 905690ef1e6204e3d8eadc6f528ad760, type: 2}
