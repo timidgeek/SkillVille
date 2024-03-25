@@ -1,14 +1,15 @@
-import logo from './assets/images/sv-logoTM.png';
+
 import './App.css';
+import Header from './components/Header';
+import Landing from './components/Landing';
 
 function App() {
   return (
     <div className="App">
+      <Header />
+      <Landing />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Coming soon!
-        </p>
+       
       </header>
     </div>
   );
