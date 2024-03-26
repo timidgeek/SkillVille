@@ -6,7 +6,8 @@ import { Link } from 'react-router-dom';
 
 export default function Header() {
   return (
-    <header className="primary-header scallop display-flex">
+    <header className="primary-header display-flex">
+      <div className="header-bg"></div>
         <div>
           <Link to="/" className="Welcome">Welcome!</Link>
         </div>

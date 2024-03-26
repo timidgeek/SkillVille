@@ -4,17 +4,19 @@
 
 .Landing-logo {
   height: 30vmin;
+  padding-top: 5rem;
 }
 
 .Landing {
   background-color: var(--color-med-ivory);
   background-image: url(../assets/images/cloudbg.png);
-  /* background-size: cover; */
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
+
 }
 
 .Cloud-background {
@@ -23,7 +25,8 @@
   height: 100%;
   background-image: url(../assets/game_pngs/Cloud.png);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
+  top: 3rem;
   background-size: 90vmin;
 }
 
