@@ -24,7 +24,7 @@ export default function Header() {
         </div>
 
         <div className="header-bg"></div> 
-        {/* i switched this with the above and i don't think it did anything */}
+        {/* i switched this with the above and i don't think it did anything hehe */}
         
 
         <nav>
