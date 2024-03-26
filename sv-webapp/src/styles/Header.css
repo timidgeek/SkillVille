@@ -1,7 +1,22 @@
+.header-bg {
+  position: absolute;
+  top: 0;
+  background-image: url(../assets/game_pngs/MapEnd.png);
+  background-position: center;
+  background-size: 50rem;
+  width: 100%;
+  height: 100%;
+  background-repeat: repeat-x;
+  z-index: -1;
+}
+
 .primary-header {
-  height: 3rem;
-  align-items: center;
+  position: relative;
+  background-color: transparent!important;
+  height: 10rem;
+  padding-top: 2rem;
   justify-content: space-between;
+  z-index: 5;
 }
 
 .display-flex {
@@ -19,7 +34,7 @@
   text-decoration: none;
   font-family: var(--super-std);
   font-size: 24px;
-  color: var(--color-blue);
+  color: var(--color-green);
 }
 
 .Welcome {
@@ -52,3 +67,13 @@
   background-repeat: repeat-x;
 }
 /* #endregion --- SCALLOP BORDER --- */
+
+/* #region --- MEDIA QUERIES --- */
+/* @media (min-width: 35em) {
+  .navigation {
+    position: fixed;
+    inset: 0 0 0 30%;
+    background: var(--color-light-ivory);
+  }
+} */
+/* #endregion --- MEDIA QUERIES --- */

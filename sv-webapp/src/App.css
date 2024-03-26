@@ -11,6 +11,8 @@
   --color-med-ivory: #FFFFD6;
   --color-light-ivory: #FFFFF9;
   --color-transparent: hsla(0, 0%, 0%, 0);
+  --color-cloud-blue: #F9FDFF;
+  --color-cloud-white: #FDFEFF;
 
 
   /* fonts */
@@ -47,4 +49,8 @@
   /* text-align: center; */
   font-family: var(--circular-std);
   color: var(--color-pink);
+}
+
+body {
+  background-color: #5EA2ED;
 }
