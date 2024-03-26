@@ -3,11 +3,6 @@ import React from "react";
 /* styles and images */
 import '../styles/Landing.css';
 import logo from '../assets/images/sv-logoTM.png';
-import cloud from '../assets/game_pngs/Cloud.png'
-import lag from '../assets/images/sv-lag.png';
-import play from '../assets/game_pngs/navigation/pink_play.png';
-import pb from '../assets/game_pngs/navigation/pink_brown.png';
-import yellow from '../assets/game_pngs/navigation/btn_play.png';
 
 export default function Landing() {
   return (

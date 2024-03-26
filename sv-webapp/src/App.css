@@ -10,6 +10,7 @@
   --color-dark-brown: #48342B;
   --color-med-ivory: #FFFFD6;
   --color-light-ivory: #FFFFF9;
+  --color-transparent: hsla(0, 0%, 0%, 0);
 
 
   /* fonts */
