@@ -1,16 +1,31 @@
 // make event handler for if landing page - show different header
 import React from 'react';
 import '../styles/Header.css';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
+import logo from '../assets/images/sv-logoTM.png'
 
 
 export default function Header() {
+  // if landing page show different header
+  const location = useLocation();
+  const isLandingPage = location.pathname === '/';
+
   return (
     <header className="primary-header display-flex">
-      <div className="header-bg"></div>
-        <div>
-          <Link to="/" className="Welcome">Welcome!</Link>
+      <div>
+        {isLandingPage ? (
+          <Link to="/" className="Welcome"></Link>
+        ) : (
+          <Link to="/">
+            <img src={logo} alt="tinySkillVille"
+            style={{  width: '250px', marginLeft: '1rem' }} />
+          </Link> // ADD FADE IN and scoot it up???
+        )}
         </div>
+
+        <div className="header-bg"></div> 
+        {/* i switched this with the above and i don't think it did anything hehe */}
+        
 
         <nav>
           <ul id="navigation" className="navigation display-flex">

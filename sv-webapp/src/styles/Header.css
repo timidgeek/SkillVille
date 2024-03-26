@@ -12,7 +12,6 @@
 
 .primary-header {
   position: relative;
-  background-color: transparent!important;
   height: 10rem;
   padding-top: 2rem;
   justify-content: space-between;
@@ -28,6 +27,7 @@
   list-style: none;
   padding: 0;
   margin: 0;
+  margin-right: 1rem;
 }
 
 .link {
@@ -45,7 +45,6 @@
   margin: 1rem;
   text-decoration: none;
 }
-
 
 /* #region --- SCALLOP BORDER --- */
 .scallop {
@@ -74,6 +73,6 @@
     position: fixed;
     inset: 0 0 0 30%;
     background: var(--color-light-ivory);
-  }
+  } working on hamburger
 } */
 /* #endregion --- MEDIA QUERIES --- */
