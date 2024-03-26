@@ -1,0 +1,54 @@
+.primary-header {
+  height: 3rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.display-flex {
+  display: flex;
+  gap: var(--gap, 2rem)
+}
+
+.navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+  font-family: var(--super-std);
+  font-size: 24px;
+  color: var(--color-blue);
+}
+
+.Welcome {
+  color: var(--color-pink);
+  font-family: var(--letters-std);
+  font-size: var(--font-sz-md);
+  font-weight: 700;
+  margin: 1rem;
+  text-decoration: none;
+}
+
+
+/* #region --- SCALLOP BORDER --- */
+.scallop {
+  position:relative;
+  background: var(--color-light-ivory);
+  padding:10px;
+}
+.scallop::after { 
+  position:absolute;
+  bottom: -50px;
+  left: 0px;
+  width: 100%;
+  content:" ";
+  background: 
+  radial-gradient(circle at 50% 0%, var(--color-light-ivory) 25%, #5EA2ED 26%, #5EA2ED 40%);
+  background-color: var(--color-light-ivory);
+  background-size: 50px 100px;
+  height:50px;
+  background-repeat: repeat-x;
+}
+/* #endregion --- SCALLOP BORDER --- */

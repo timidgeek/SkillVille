@@ -9,6 +9,7 @@
 .Landing {
   background-color: var(--color-med-ivory);
   background-image: url(../assets/images/cloudbg.png);
+  /* background-size: cover; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
